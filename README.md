@@ -22,18 +22,20 @@ Open Source Computer Vision Library.OpenCV于1999年由Intel建立，如今由Wi
 
 opencv环境已经配置完成，在这个工程中我们只需要下载numpy、Matplotlib、opencv-python三个包，都不大很快就可以下好，如果下载中间出现error或wrong，重新输入命令即可。
 
-但是可能存在国内网络问题，网速非常慢，安装过程非常漫长，而且中间安装还有很大可能中断，因此可以用国内源安装方法来安装opencv
+但是在安装opencv的时候可能存在国内网络问题，网速非常慢，安装过程非常漫长，而且中间安装还有很大可能中断，因此可以用国内源安装方法来安装opencv
 
-> python2版本的基本包安装
-> pip install -i https://pypi.tuna.tsinghua.edu.cn/simple opencv-python
-> python2版本的额外包安装
-> pip install -i https://pypi.tuna.tsinghua.edu.cn/simple opencv-contrib-python
-> python3版本的基本包安装
-> pip3 install -i https://pypi.tuna.tsinghua.edu.cn/simple opencv-python
-> python3版本的额外包安装
-> pip3 install -i https://pypi.tuna.tsinghua.edu.cn/simple opencv-contrib-python
+```php
+python2版本的基本包安装
+pip install -i https://pypi.tuna.tsinghua.edu.cn/simple opencv-python
+python2版本的额外包安装
+pip install -i https://pypi.tuna.tsinghua.edu.cn/simple opencv-contrib-python
+python3版本的基本包安装
+pip3 install -i https://pypi.tuna.tsinghua.edu.cn/simple opencv-python
+python3版本的额外包安装
+pip3 install -i https://pypi.tuna.tsinghua.edu.cn/simple opencv-contrib-python
+```
 
-输入上面对应python版本的pip 语句就可以快速下载和安装了
+在cmd输入上面对应python版本的pip 语句就可以快速下载和安装了
 
 ## 四、测试
 
@@ -55,6 +57,4 @@ cv2.destroyAllWindows()
 ### 2.测试结果
 
 ![avatar](https://github.com/zengqq1997/python-opencv-/blob/master/测试结果.jpg)
-
-
 
