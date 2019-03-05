@@ -16,11 +16,16 @@ Open Source Computer Vision Library.OpenCV于1999年由Intel建立，如今由Wi
 
 > ```
 > pip install --upgrade setuptools
-> pip install numpy Matplotlib
+> pip install numpy 
+> pip install Matplotlib
 > pip install opencv-python
 > ```
 
-opencv环境已经配置完成，在这个工程中我们只需要下载numpy、Matplotlib、opencv-python三个包，都不大很快就可以下好，如果下载中间出现error或wrong，重新输入命令即可。
+![image](https://github.com/zengqq1997/1.python-opencv/blob/master/opencv.png)
+
+当你的cmd上有显示如上面这张图的内容的时候，恭喜你已经成功的配置好opencv-python了！
+
+目前opencv环境已经配置完成，在这个工程中我们只需要下载<font color=#red>numpy、Matplotlib、opencv-python</font>三个包，都不大很快就可以下好，如果下载中间出现error或wrong，重新输入命令即可。
 
 但是在安装opencv的时候可能存在国内网络问题，网速非常慢，安装过程非常漫长，而且中间安装还有很大可能中断，因此可以用国内源安装方法来安装opencv
 
